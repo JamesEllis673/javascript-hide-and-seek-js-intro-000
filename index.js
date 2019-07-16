@@ -25,6 +25,6 @@ function increaseRankBy (n) {
   start = 12
 
   for (var i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = start + i + n
+    children[i].innerHTML = start - i + n
 }
 }
