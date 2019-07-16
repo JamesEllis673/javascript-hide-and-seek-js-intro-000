@@ -18,7 +18,7 @@ function increaseRankBy (n) {
   var children = firstList.children
   var start = 1
   for (var i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = start + i + n
+    children[i].innerHTML = 14
   }
 
   children = secondList.children
